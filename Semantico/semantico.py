@@ -2282,7 +2282,7 @@ def verifica_erro_VARS(valor_id, erro_conflito, erro_redec_var):
 		
 	return erro_conflito, erro_redec_var
 
-def	verifica_erro_FUNCAO(valor_id, erro_conflito, erro_redec_fun):
+def verifica_erro_FUNCAO(valor_id, erro_conflito, erro_redec_fun):
 	
 	if valor_id in IDS_VAR:
 		erro_conflito = "YES"
